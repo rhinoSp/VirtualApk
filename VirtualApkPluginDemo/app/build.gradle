@@ -27,13 +27,11 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 
-
-    compile 'com.didi.virtualapk:core:0.9.5'
 }
 
 // 插件配置信息,放在文件最下面
 virtualApk {
     packageId = 0x6f             // 插件资源id，避免资源id冲突
-    targetHost='../../GitHub/VirtualApkDemo/app'     // 宿主工程的路径
+    targetHost='../../VirtualApk/VirtualApkDemo/app'     // 宿主工程的路径
     applyHostMapping = true      // 插件编译时是否启用应用宿主的apply mapping
 }
