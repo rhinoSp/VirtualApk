@@ -1,5 +1,6 @@
+
 # VirtualApk
-The demo of VirtualApk.
+The demo of VirtualApk, more infomation to: https://blog.csdn.net/u013254166/article/details/80431288
 
 # Question / Contact Me / Hire Me
 
