@@ -106,7 +106,8 @@ public class MainActivity extends AppCompatActivity {
     /** 运行插件中activity **/
     private void showPluginActivity() {
         if (PluginManager.getInstance(this).getLoadedPlugin(PLUGIN_PACKAGE_NAME) == null) {
-            Toast.makeText(getApplicationContext(),"插件未加载,请尝试重启APP", Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplicationContext(),"插件未加载,请尝试重启APP，并检查插件"
+                    + PLUGIN_FILE_PATH + "是否存在", Toast.LENGTH_SHORT).show();
             return;
         }
         Intent intent = new Intent();
